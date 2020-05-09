@@ -3,6 +3,7 @@
     padding: 0; 
 }
 
+/* navigation bar  */
 .header {
     background:#fcd303;
 }
@@ -21,4 +22,23 @@
     font-size: 12px !important;
     padding: 0 0 5px 0 !important;
     display: unset !important;
+}
+
+/* navigation logo */
+
+.navbar-brand img {
+    width: 25px;
+
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 40px !important;
+
+}
+
+.navbar-toggler {
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
 }
