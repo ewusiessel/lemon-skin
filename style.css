@@ -7,7 +7,7 @@
 
 /* navigation bar  */
 .header {
-    background:#fcc203;
+    background:#f5f3eb;
 }
 
 .navbar {
@@ -20,7 +20,7 @@
 }
 
 .nav-link {
-    color: #fff !important;
+    color: #2B4F2E !important;
     font-size: 14px !important;
     padding: 0 0 5px 0 !important;
     display: unset !important;
@@ -34,7 +34,7 @@
 
 
 .fa-bars {
-    color: #fff;
+    color: #2B4F2E;
     font-size: 40px !important;
  
 }
@@ -47,18 +47,18 @@
 
 
 .active-home {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #2B4F2E;
 
 }
 
 .nav-link:hover {
-     border-bottom: 2px solid #fff;
+     border-bottom: 2px solid #2B4F2E;
 
 }
 
 .banner {
-    margin-top: 8%;
-    color: #fff;
+    margin-top: 8%;     /*banner title*/
+    color: #2B4F2E
 }
 
 .banner h1{
@@ -75,7 +75,7 @@
     padding: 12px;
     width: 150px;
     display: inline-block;
-    background: #fcc203;
+    background: #2B4F2E;
     text-decoration: none !important;
     color: #fff;
     border: 2px solid #fff;
@@ -91,7 +91,7 @@
 
 .express-btn {
     background: #fff !important;
-    color: #fcc203 !important;
+    color: #2B4F2E !important;
     margin-right: 5px;
 }
 
@@ -104,8 +104,8 @@
 .title{
     text-align: center;
     font-weight: bold;
-    margin-bottom: 30px;
-    color: #fcc203;
+    margin-bottom: 20px;
+    color: #2B4F2E;
 
 }
 
