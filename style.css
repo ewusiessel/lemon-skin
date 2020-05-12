@@ -1,4 +1,8 @@
 
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
 * {
     margin: 0;
     padding: 0; 
@@ -20,7 +24,7 @@
 
 .nav-link {
     color: #fff !important;
-    font-size: 12px !important;
+    font-size: 14px !important;
     padding: 0 0 5px 0 !important;
     display: unset !important;
 }
@@ -28,7 +32,7 @@
 /* navigation logo */
 
 .navbar-brand img {
-    width: 50px;
+    width: 200px;
 }
 
 
@@ -104,6 +108,7 @@
     text-align: center;
     font-weight: bold;
     margin-bottom: 30px;
+
 }
 
 .sub-title {
@@ -111,3 +116,31 @@
     margin-bottom: 70px;
     font-size: 15px;
 }
+
+.hairdressing {
+    width: 10px !important;
+}
+
+.service-box{
+    padding: 0 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+ 
+.service-box img{
+    width: 60px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+     
+}
+
+.service-box h6{
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+.service-box p{
+    font-size: 14px;
+    color: #777;
+}
+
