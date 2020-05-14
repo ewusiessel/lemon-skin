@@ -150,6 +150,8 @@
    text-align: center;
 }
 
+/* hover effect  */
+
 .hvr-bounce-in {
     display: inline-block;
     vertical-align: middle;
@@ -169,3 +171,50 @@
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
+/* footer */
+.footer{
+    background: #2B4F2E;
+    padding-top: 5px;  
+}
+
+.footer h2{
+    color: #fff;
+    font-weight: 600;
+    margin: 70px;
+}
+
+.footer input{
+    width: 60%;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+::placeholder {
+    color: #efefef;
+    font-size: 13px;
+}
+
+.footer button {
+    padding: 6px;
+    width: 180px;
+    margin: auto;
+    display: block;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 20px;
+    background: transparent;
+}
+
+.footer small{
+    color: #fff;
+    font-size: 14px;
+    padding: 70px;
+    padding-bottom: 20px;
+    display: block;
+}
