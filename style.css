@@ -62,13 +62,12 @@
 }
 
 .banner h1{
-    margin: 80px 0 50px;
     font-weight: 600;
     font-size: 40px;
 }
 
 .banner img{
-    max-height: 700px;
+    max-height: 300px;
 }
 
 .banner a{
@@ -81,8 +80,8 @@
     border: 2px solid #fff;
     border-radius: 5px;
     text-align: center;
-    margin-top: 30px;
-    font-size: 14px;
+    margin-top: 10px;
+    font-size: 14px; 
 }
 
 .banner a:hover {
@@ -213,9 +212,9 @@
 
 .footer small{
     color: #fff;
-    font-size: 14px;
-    padding: 70px;
-    padding-bottom: 20px;
+    font-size: 12px;
+    padding: 20px;
+    padding-bottom: 60px;
     display: block;
     color: #fff;
 }
@@ -231,4 +230,32 @@
 
 .footer-icons li a {
     color: #fff;
+}
+
+
+
+/* media queries */
+
+@media only screen and (min-width: 1024px) {
+
+    .banner a {
+        margin-top: 60px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    /* mobile phone */
+
+    div h1, p {
+        text-align: center;
+    }
+
+    .banner {
+        text-align: center;
+
+}
+
 }
