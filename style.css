@@ -64,6 +64,7 @@
 .banner h1{
     font-weight: 600;
     font-size: 40px;
+  
 }
 
 .banner img{
@@ -242,6 +243,12 @@
         margin-top: 60px;
     }
 
+.banner h1{
+  
+margin-bottom: 50px;
+
+} 
+
 }
 
 
@@ -259,3 +266,7 @@
 }
 
 }
+
+
+
+ 
